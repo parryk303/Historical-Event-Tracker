@@ -1,0 +1,81 @@
+body {
+  background-color: #8a86a3;
+  background-image: url("https://www.transparenttextures.com/patterns/swirl.png");
+}
+
+#head {
+  background-image: url("https://images.pexels.com/photos/4388164/pexels-photo-4388164.jpeg?cs=srgb&dl=pexels-spencer-davis-4388164.jpg&fm=jpg");
+  background-size: cover;
+  width: 110%;
+  height: 450px;
+  margin-top: -100px;
+  margin-left: -50px ;
+  box-shadow: 1px 5px 5px hsl(0, 5%, 7%);
+}
+
+#title {
+  text-align: center;
+  justify-content: center;
+  font-family: 'Marcellus SC', serif;
+  font-size: 80px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  display: block;
+  padding: 20px;
+}
+
+.pagination {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  box-shadow: 3px 6px 6px hsl(0, 3%, 7%);
+  margin: 15px;
+  width: 500px;
+}
+
+.pageClass:hover, .previous:hover, .next:hover {
+  background-color: goldenrod;
+}
+
+.pageClass, .previous, .next {
+  list-style-type: none;
+  background-color: blueviolet;
+  margin: 1%;
+  display: inline;
+  text-align: center;
+  font-size: small;
+  padding: 0.5%;
+  border: solid;
+  box-shadow: 1px 2px 2px hsl(0, 3%, 7%);
+}
+
+#search {
+  display: flex;
+  font-size: large;
+  padding: 15px;
+  font-family: 'Marcellus SC', serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 185px;
+}
+
+.search {
+  font-family: 'Marcellus SC', serif;
+  font-size: 40px;
+}
+
+.card {
+  padding: 3px;
+  margin: 10px;
+  background-color: #c9bc2b;
+  background-image: url("https://www.transparenttextures.com/patterns/squairy.png");
+  border: gray;
+  box-shadow: 1px 2px 2px hsl(0, 3%, 7%);
+  font-family: 'Marcellus SC', serif;
+  font-size: 30px;
+  justify-content: center;
+}
