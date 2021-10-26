@@ -1,5 +1,7 @@
 # Historical-Event-Tracker
-MiniApps fullstack practice #1. Build an app to sort through messy db.json file with a json-server and React frontend.
+Build an app to sort through messy db.json file with a json-server and React frontend.
+
+![Historical-Event-Tracker](./HistoricalEventsTracker.png)
 
 # Set Up
 > Run the following commands from the root of this repository
@@ -7,7 +9,3 @@ MiniApps fullstack practice #1. Build an app to sort through messy db.json file 
 > npm i
 > npm run build
 > npm start
-
-# Final Product
-
-![final product](./HistoricalEventsTracker.png)
